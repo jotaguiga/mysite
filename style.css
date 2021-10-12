@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: black;
+}
+
+#menu ul{
+    text-align: center;
+}
+
+#menu li {
+    width: 30px;
+}
+
+#menu li a{
+    text-align: center;
+}
+
+#eu{
+    margin-right: 10px;
+}
+
+#skill{
+    margin-right: 10px;
+}
+
+#contato{
+    margin-right: 10px;
+}
+
+#conteudo{
+    width: 75%;
+    text-align: center;
+    margin: auto auto auto auto;
+}
+
+#foto{
+    margin-top: 125px;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+#conteudo h2{
+    margin: 25px;
+    color: white;
+}
+
+#conteudo p{
+    color: #0d6efd;
+}
