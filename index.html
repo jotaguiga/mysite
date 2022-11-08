@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>João Guilherme</title>
+</head>
+<body>
+      <div class="primeira_parte">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">João Guilherme | Dev. Front-End</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Seções
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#tecnologias">Tecnologias</a></li>
+                    <li><a class="dropdown-item" href="#info">Contato</a></li>
+                    <li><a class="dropdown-item" href="#">Projetos</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="container">
+          <div class="foto">
+            <img src="./img/3426526.jpg">
+          </div>
+          <div class="texto">
+            <div class="titulo">
+              <h3>Sobre mim</h3>
+            </div>
+            <div class="descricao">
+              <p id="paragrafo">Bem-vindo ao meu perfil, me chamo João Guilherme, tenho 23 anos sou estudante de Análise e desenvolvimento de sistemas na Unifacs. Busco me desenvolver dia após dia para chegar a excelência e ajudar as pessoas, já que esse é o meu maior desejo "Ajudar as pessoas e poder mudar o mundo".</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+      
+      <div id="tecnologias">
+        <div class="cabecalho">
+          <h3>Tecnologias</h3>
+        </div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: white;"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: white;"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: white;"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="imagem-carrossel">
+                <img src="./img/html.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>HTML5</h5>
+                <p>Nível: Avançado</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div class="imagem-carrossel">
+                <img src="./img/css.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>CSS3</h5>
+                <p>Nível: Avançado</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="imagem-carrossel">
+                <img src="./img/js.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>JavaScript</h5>
+                <p>Nível: Avançado</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="info" class="informacoes">
+        <div class="cabecalho2">
+          <h3>Contato</h3>
+        </div>
+        <div class="cartoes">
+          <div class="card" style="width: 18rem;">
+              <img src="./img/whatsapp.png" class="card-img-top" alt="símbolo do whatsapp">
+              <div class="card-body">
+              <h5 class="card-title">WhatsApp</h5>
+              <p class="card-text">Clique abaixo para entrar em contato comigo pelo WhatsApp.</p>
+              <a href="#" class="btn btn-primary">Ir para o WhatsApp</a>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img src="./img/instagram.png" class="card-img-top" alt="símbolo do instagram">
+              <div class="card-body">
+              <h5 class="card-title">Instagram</h5>
+              <p class="card-text">Clique abaixo para entrar em contato comigo pelo Instagram.</p>
+              <a href="https://www.instagram.com/jotaguiga/" target="_blank" class="btn btn-primary">Ir para o Instagram</a>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img src="./img/linkedin.png" class="card-img-top" alt="símbolo do linkedin">
+              <div class="card-body">
+              <h5 class="card-title">Linkedin</h5>
+              <p class="card-text">Clique abaixo para entrar em contato comigo pelo Linkedin.</p>
+              <a href="https://www.linkedin.com/in/joaoguilhermeoliveira/" target="_blank" class="btn btn-primary">Ir para o Linkedin</a>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img src="./img/github.png" class="card-img-top" alt="símbolo do github">
+              <div class="card-body">
+              <h5 class="card-title">GitHub</h5>
+              <p class="card-text">Clique abaixo para ver os meus projetos no GitHub.</p>
+              <a href="https://github.com/jotaguiga" target="_blank" class="btn btn-primary">Ir para o GitHub</a>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+</body>
+</html>

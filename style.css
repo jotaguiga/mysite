@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-width: 415px;
+}
+
+
+.container{
+    margin-top: 20px;
+    width: 100%!important;
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 15px;
+}
+
+.foto{
+    flex: 1;
+    border: 1px solid white;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.foto img{
+    width: 60%;
+    min-width: 150px;
+    max-width: 300px;
+    max-height: 60%;
+    animation: imagem 3.5s ease infinite
+}
+
+.texto{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+}
+
+.titulo{
+    flex: 1;
+    border-bottom: 3px solid #212529!important;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.descricao{
+    flex: 8;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#tecnologias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    height: 100vh;
+    background-color: #363636;
+    color: white!important;
+}
+
+.cabecalho{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carouselExampleDark{
+    flex: 2;
+    width:50%!important;
+    max-width: 350px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.imagem-carrossel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-md-block{
+    color: white!important;
+    text-shadow: 1px 1px 1px black;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.cartoes{
+    display: flex;
+    width: 100%;
+    height: 55%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    margin: auto;
+}
+
+.card img{
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+}
+
+.btn-primary{
+    background-color: #212529!important;
+    border: 1px solid #212529!important;
+}
+
+.cabecalho2{
+    color: white!important;
+}
+
+@media (max-width:1074px){
+
+    .container{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .foto{
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .foto img{
+        animation: none;
+    }
+
+    .texto{
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .informacoes{
+        height: auto;
+    }
+
+    .card{
+        margin: 20px;
+    }
+}
+
+@keyframes imagem{
+    from{width: 60%;}
+    50%{width: 80%;}
+    to{width: 60%;}
+}
